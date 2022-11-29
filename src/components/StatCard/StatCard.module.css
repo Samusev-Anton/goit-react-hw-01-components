@@ -1,11 +1,18 @@
 .item {
-  height: 50px;
+  list-style: none;
+  height: 70px;
+  width: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: aquamarine;
 }
 
 .label {
-  color: aqua;
+  color: white;
 }
 
 .percentage {
-  color: yellowgreen;
+  color: white;
 }
