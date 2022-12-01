@@ -1,6 +1,8 @@
 .title {
   color: grey;
   margin: 0;
+  margin-right: auto;
   padding: 40px;
   background-color: aliceblue;
+  text-align: center;
 }
