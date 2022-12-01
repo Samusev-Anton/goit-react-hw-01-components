@@ -1,4 +1,4 @@
-import css from './TableElem.module.css';
+// import css from './TableElem.module.css';
 
 
 export const TableElem = ({ type, amount, currency }) => {
