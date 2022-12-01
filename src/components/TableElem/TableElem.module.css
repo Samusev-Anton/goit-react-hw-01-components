@@ -3,5 +3,5 @@ td {
 }
 
 tr:nth-child(2n) {
-  background-color: gray;
+  background-color: rgb(211, 211, 211);
 }

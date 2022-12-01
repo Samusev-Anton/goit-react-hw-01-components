@@ -1,3 +1,6 @@
 .title {
-  color: red;
+  color: grey;
+  margin: 0;
+  padding: 40px;
+  background-color: aliceblue;
 }

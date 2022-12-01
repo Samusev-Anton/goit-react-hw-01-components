@@ -1,8 +1,8 @@
-// import css from './TableElem.module.css';
+import css from './TableElem.module.css';
 
 
 export const TableElem = ({ type, amount, currency }) => {
-    return    <tr>
+    return    <tr className={css.itemTable}>
         <td>{ type}</td>
         <td>{amount }</td>
         <td>{ currency}</td>

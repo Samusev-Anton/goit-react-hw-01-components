@@ -1,5 +1,4 @@
 import { Profile } from 'components/User/User';
-import { PageTitle } from 'components/PageTitle/PageTilte';
 import { StatisticBox } from 'components/StatisticBox/StatisticBox'
 import { FriendsBox } from 'components/FriendsBox/FriendsBox';
 import { Table } from 'components/Table/Table';
@@ -15,8 +14,7 @@ export const App = () => {
   return (
     <div>
       <Profile user={user} />
-            <PageTitle text='Upload stats' />
-      <StatisticBox events={ statistics } />
+      <StatisticBox events={ statistics }/>
       <FriendsBox events={friends} />
       <Table events={transactions} />
     </div>
