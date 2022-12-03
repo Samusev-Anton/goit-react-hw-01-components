@@ -4,11 +4,11 @@ import { StatCard } from 'components/StatCard/StatCard';
 import { PageTitle } from 'components/PageTitle/PageTilte';
 
 
-export const StatisticBox = ({ events }) => {
-  // console.log(events);
+export const StatisticBox = ({ events, text }) => {
+  console.log(events);
   return (
     <section className={css.statistics}>
-    <PageTitle text='Upload stats' />
+      <PageTitle text={text } />
     <ul className={css.statBox}>
       {events.map(({ id, label, percentage }) => (
         <StatCard key={id} label={label} percentage={percentage} />
