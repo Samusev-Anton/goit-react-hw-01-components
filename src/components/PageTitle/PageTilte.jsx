@@ -2,9 +2,11 @@ import css from './PageTitle.module.css';
 import PropTypes from 'prop-types';
 
 export const PageTitle = ({ text }) => {
-  return <h2 className={css.title}>{text}</h2>;
+  return (<div>
+    {text && <h2 className={css.title}>{text}</h2>}
+  </div> );
 };
 
 PageTitle.propTypes = {
-  text: PropTypes.string.isRequired,
+  text: PropTypes.string,
 };
